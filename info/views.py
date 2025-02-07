@@ -8,7 +8,7 @@ def get_info(request):
     return Response ({
             'email': 'damilolajoseph91@gmail.com',
             'current_datetime': timezone.now().strftime('%Y-%m-%dtH:%M:%SZ'),
-            'github_url': 'https://github.com/Nobelwrite/myinfo'
+            'github_url': 'https://github.com/Nobelwrite/info_api'
     })
 
 
